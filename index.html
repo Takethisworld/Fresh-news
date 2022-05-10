@@ -7,10 +7,17 @@
     <link rel="preload" href="/fonts/roboto-v29-latin_cyrillic-300.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/roboto-v29-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
 
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
 
+
+
+    <link rel="stylesheet" href="/style/choices.min.css"/>
     <link rel="stylesheet" href="/style/style.css" />
     <link rel="stylesheet" href="/style/normalize.css" />
     <link rel="stylesheet" href="/style/default.css" />
+
+    <script src="script/script.js" defer></script>
+    <script src="script/choices.min.js" defer></script>
 
 
     <title>News</title>
@@ -37,7 +44,7 @@
               </svg>
             </button>
           </label>
-          <select name="country" class="оы-country">
+          <select name="country" class="js-choice">
             <option value="">Выберите страну</option>
             <option value="ru">Россия</option>
             <option value="us">Америка</option>

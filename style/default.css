@@ -77,3 +77,10 @@ h1,h2,h3,p{
     padding-left: 30px;
     padding-right: 30px;
 } 
+
+@media(max-width:560px){
+    .container{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+}
