@@ -27,8 +27,8 @@
       <div class="container flex-center">
         <img src="/img/logo.svg" alt="news logo" />
         <form action="input" class="form-search flex-center">
-          <label class="search-label">
-            <input type="text" class="search-input" />
+          <div class="search-label">
+            <input type="text" class="search-input" name="search"/>
             <button class="search-submit">
               <svg
                 width="22"
@@ -43,7 +43,7 @@
                 />
               </svg>
             </button>
-          </label>
+          </div>
           <select name="country" class="js-choice">
             <option value="">Выберите страну</option>
             <option value="ru">Россия</option>
